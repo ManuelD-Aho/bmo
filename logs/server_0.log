@@ -1,0 +1,120 @@
+
+[2025-05-05 11:33:13] [INFO   ] [com.bmo.server.MainServer] Initialisation du serveur BMO 
+[2025-05-05 11:33:13] [INFO   ] [com.bmo.server.MainServer] Chargement de la configuration depuis: server/src/main/resources/application.properties 
+[2025-05-05 11:33:13] [INFO   ] [com.bmo.server.MainServer] Configuration chargée: bindAddress=0.0.0.0, port=12345, maxConnections=100, connectionTimeout=300s 
+[2025-05-05 11:33:13] [INFO   ] [com.bmo.server.MainServer] Initialisation de la source de données MySQL 
+[2025-05-05 11:33:13] [WARNING] [com.bmo.server.MainServer] Détection d'un préfixe incorrect dans db.url. Valeur corrigée: jdbc:mysql://localhost:3306/bmo_db 
+[2025-05-05 11:33:13] [INFO   ] [com.bmo.server.MainServer] Source de données MySQL initialisée - URL: jdbc:mysql://localhost:3306/bmo_db 
+[2025-05-05 11:33:14] [INFO   ] [com.bmo.server.MainServer] Test de connexion à la base de données réussi 
+[2025-05-05 11:33:14] [INFO   ] [com.bmo.server.MainServer] Vérification de la base de données 
+[2025-05-05 11:33:14] [INFO   ] [com.bmo.server.MainServer] Connexion à la base de données réussie 
+[2025-05-05 11:33:14] [INFO   ] [com.bmo.server.MainServer] Serveur BMO démarré sur 0.0.0.0:12345 
+[2025-05-05 11:33:14] [INFO   ] [com.bmo.server.MainServer] Pour vous connecter au serveur BMO depuis une autre machine sur le réseau, utilisez: 
+[2025-05-05 11:33:14] [INFO   ] [com.bmo.server.MainServer]   - telnet 172.30.80.1 12345 
+[2025-05-05 11:33:14] [INFO   ] [com.bmo.server.MainServer]   - telnet 172.19.176.1 12345 
+[2025-05-05 11:33:14] [INFO   ] [com.bmo.server.MainServer]   - telnet 172.20.10.2 12345 
+[2025-05-05 11:33:14] [INFO   ] [com.bmo.server.MainServer] Système d'exploitation Windows détecté. Vérifiez que le port 12345 est autorisé dans le pare-feu Windows: 
+[2025-05-05 11:33:14] [INFO   ] [com.bmo.server.MainServer]   - Panneau de configuration > Système et sécurité > Pare-feu Windows > Paramètres avancés 
+[2025-05-05 11:33:14] [INFO   ] [com.bmo.server.MainServer]   - Règles de trafic entrant > Nouvelle règle > Port > TCP > Port spécifique: 12345 
+[2025-05-05 11:33:14] [INFO   ] [com.bmo.server.MainServer] Exécution de diagnostics réseau... 
+[2025-05-05 11:33:14] [WARNING] [com.bmo.server.MainServer] Le port 12345 est déjà utilisé par une autre application. Ceci est anormal car notre serveur vient de démarrer sur ce port. 
+[2025-05-05 11:33:14] [INFO   ] [com.bmo.server.MainServer] Nom de l'hôte local: DESKTOP-0HIMVUQ 
+[2025-05-05 11:33:14] [INFO   ] [com.bmo.server.MainServer] Adresse IP locale: 172.20.10.2 
+[2025-05-05 11:33:14] [INFO   ] [com.bmo.server.MainServer] Diagnostics réseau terminés. 
+[2025-05-05 11:33:14] [INFO   ] [com.bmo.server.MainServer] Nouvelle connexion cliente depuis /127.0.0.1:56756 vers /127.0.0.1:12345 
+[2025-05-05 11:33:58] [INFO   ] [com.bmo.server.MainServer] Nouvelle connexion cliente depuis /0:0:0:0:0:0:0:1:56758 vers /0:0:0:0:0:0:0:1:12345 
+[2025-05-05 11:36:34] [INFO   ] [com.bmo.server.MainServer] Nouvelle connexion cliente depuis /172.20.10.7:51537 vers /172.20.10.2:12345 
+[2025-05-05 11:42:50] [INFO   ] [com.bmo.server.MainServer] Signal d'arrêt reçu (Ctrl+C ou arrêt du système) 
+[2025-05-05 11:42:53] [INFO   ] [com.bmo.server.MainServer] Initialisation du serveur BMO 
+[2025-05-05 11:42:53] [INFO   ] [com.bmo.server.MainServer] Chargement de la configuration depuis: server/src/main/resources/application.properties 
+[2025-05-05 11:42:53] [INFO   ] [com.bmo.server.MainServer] Configuration chargée: bindAddress=0.0.0.0, port=12345, maxConnections=100, connectionTimeout=300s 
+[2025-05-05 11:42:53] [INFO   ] [com.bmo.server.MainServer] Initialisation de la source de données MySQL 
+[2025-05-05 11:42:53] [WARNING] [com.bmo.server.MainServer] Détection d'un préfixe incorrect dans db.url. Valeur corrigée: jdbc:mysql://localhost:3306/bmo_db 
+[2025-05-05 11:42:53] [INFO   ] [com.bmo.server.MainServer] Source de données MySQL initialisée - URL: jdbc:mysql://localhost:3306/bmo_db 
+[2025-05-05 11:42:53] [INFO   ] [com.bmo.server.MainServer] Test de connexion à la base de données réussi 
+[2025-05-05 11:42:54] [INFO   ] [com.bmo.server.MainServer] Vérification de la base de données 
+[2025-05-05 11:42:54] [INFO   ] [com.bmo.server.MainServer] Connexion à la base de données réussie 
+[2025-05-05 11:42:54] [INFO   ] [com.bmo.server.MainServer] Serveur BMO démarré sur 0.0.0.0:12345 
+[2025-05-05 11:42:54] [INFO   ] [com.bmo.server.MainServer] Pour vous connecter au serveur BMO depuis une autre machine sur le réseau, utilisez: 
+[2025-05-05 11:42:54] [INFO   ] [com.bmo.server.MainServer]   - telnet 172.30.80.1 12345 
+[2025-05-05 11:42:54] [INFO   ] [com.bmo.server.MainServer]   - telnet 172.19.176.1 12345 
+[2025-05-05 11:42:54] [INFO   ] [com.bmo.server.MainServer]   - telnet 172.20.10.2 12345 
+[2025-05-05 11:42:54] [INFO   ] [com.bmo.server.MainServer] Système d'exploitation Windows détecté. Vérifiez que le port 12345 est autorisé dans le pare-feu Windows: 
+[2025-05-05 11:42:54] [INFO   ] [com.bmo.server.MainServer]   - Panneau de configuration > Système et sécurité > Pare-feu Windows > Paramètres avancés 
+[2025-05-05 11:42:54] [INFO   ] [com.bmo.server.MainServer]   - Règles de trafic entrant > Nouvelle règle > Port > TCP > Port spécifique: 12345 
+[2025-05-05 11:42:54] [INFO   ] [com.bmo.server.MainServer] Exécution de diagnostics réseau... 
+[2025-05-05 11:42:54] [WARNING] [com.bmo.server.MainServer] Le port 12345 est déjà utilisé par une autre application. Ceci est anormal car notre serveur vient de démarrer sur ce port. 
+[2025-05-05 11:42:54] [INFO   ] [com.bmo.server.MainServer] Nom de l'hôte local: DESKTOP-0HIMVUQ 
+[2025-05-05 11:42:54] [INFO   ] [com.bmo.server.MainServer] Adresse IP locale: 172.20.10.2 
+[2025-05-05 11:42:54] [INFO   ] [com.bmo.server.MainServer] Diagnostics réseau terminés. 
+[2025-05-05 11:42:54] [INFO   ] [com.bmo.server.MainServer] Nouvelle connexion cliente depuis /127.0.0.1:56884 vers /127.0.0.1:12345 
+[2025-05-05 11:43:21] [INFO   ] [com.bmo.server.MainServer] Signal d'arrêt reçu (Ctrl+C ou arrêt du système) 
+[2025-05-05 18:15:03] [INFO   ] [com.bmo.server.MainServer] Initialisation du serveur BMO 
+[2025-05-05 18:15:03] [INFO   ] [com.bmo.server.MainServer] Chargement de la configuration depuis: server/src/main/resources/application.properties 
+[2025-05-05 18:15:03] [INFO   ] [com.bmo.server.MainServer] Configuration chargée: bindAddress=0.0.0.0, port=12345, maxConnections=100, connectionTimeout=300s 
+[2025-05-05 18:15:03] [INFO   ] [com.bmo.server.MainServer] Initialisation de la source de données MySQL 
+[2025-05-05 18:15:03] [WARNING] [com.bmo.server.MainServer] Détection d'un préfixe incorrect dans db.url. Valeur corrigée: jdbc:mysql://localhost:3306/bmo_db 
+[2025-05-05 18:15:03] [INFO   ] [com.bmo.server.MainServer] Source de données MySQL initialisée - URL: jdbc:mysql://localhost:3306/bmo_db 
+[2025-05-05 18:15:03] [INFO   ] [com.bmo.server.MainServer] Test de connexion à la base de données réussi 
+[2025-05-05 18:15:03] [INFO   ] [com.bmo.server.MainServer] Vérification de la base de données 
+[2025-05-05 18:15:03] [INFO   ] [com.bmo.server.MainServer] Connexion à la base de données réussie 
+[2025-05-05 18:15:03] [INFO   ] [com.bmo.server.MainServer] Serveur BMO démarré sur 0.0.0.0:12345 
+[2025-05-05 18:15:03] [INFO   ] [com.bmo.server.MainServer] Pour vous connecter au serveur BMO depuis une autre machine sur le réseau, utilisez: 
+[2025-05-05 18:15:03] [INFO   ] [com.bmo.server.MainServer]   - telnet 10.10.2.44 12345 
+[2025-05-05 18:15:03] [INFO   ] [com.bmo.server.MainServer]   - telnet 172.27.16.1 12345 
+[2025-05-05 18:15:03] [INFO   ] [com.bmo.server.MainServer]   - telnet 172.19.176.1 12345 
+[2025-05-05 18:15:03] [INFO   ] [com.bmo.server.MainServer] Système d'exploitation Windows détecté. Vérifiez que le port 12345 est autorisé dans le pare-feu Windows: 
+[2025-05-05 18:15:03] [INFO   ] [com.bmo.server.MainServer]   - Panneau de configuration > Système et sécurité > Pare-feu Windows > Paramètres avancés 
+[2025-05-05 18:15:03] [INFO   ] [com.bmo.server.MainServer]   - Règles de trafic entrant > Nouvelle règle > Port > TCP > Port spécifique: 12345 
+[2025-05-05 18:15:03] [INFO   ] [com.bmo.server.MainServer] Exécution de diagnostics réseau... 
+[2025-05-05 18:15:03] [WARNING] [com.bmo.server.MainServer] Le port 12345 est déjà utilisé par une autre application. Ceci est anormal car notre serveur vient de démarrer sur ce port. 
+[2025-05-05 18:15:03] [INFO   ] [com.bmo.server.MainServer] Nom de l'hôte local: DESKTOP-0HIMVUQ 
+[2025-05-05 18:15:03] [INFO   ] [com.bmo.server.MainServer] Adresse IP locale: 10.10.2.44 
+[2025-05-05 18:15:03] [INFO   ] [com.bmo.server.MainServer] Diagnostics réseau terminés. 
+[2025-05-05 18:15:03] [INFO   ] [com.bmo.server.MainServer] Nouvelle connexion cliente depuis /127.0.0.1:55943 vers /127.0.0.1:12345 
+[2025-05-05 18:19:56] [INFO   ] [com.bmo.server.MainServer] Initialisation du serveur BMO 
+[2025-05-05 18:19:56] [INFO   ] [com.bmo.server.MainServer] Chargement de la configuration depuis: server/src/main/resources/application.properties 
+[2025-05-05 18:19:56] [INFO   ] [com.bmo.server.MainServer] Configuration chargée: bindAddress=0.0.0.0, port=12345, maxConnections=100, connectionTimeout=300s 
+[2025-05-05 18:19:56] [INFO   ] [com.bmo.server.MainServer] Initialisation de la source de données MySQL 
+[2025-05-05 18:19:56] [WARNING] [com.bmo.server.MainServer] Détection d'un préfixe incorrect dans db.url. Valeur corrigée: jdbc:mysql://localhost:3306/bmo_db 
+[2025-05-05 18:19:56] [INFO   ] [com.bmo.server.MainServer] Source de données MySQL initialisée - URL: jdbc:mysql://localhost:3306/bmo_db 
+[2025-05-05 18:19:57] [INFO   ] [com.bmo.server.MainServer] Test de connexion à la base de données réussi 
+[2025-05-05 18:19:57] [INFO   ] [com.bmo.server.MainServer] Vérification de la base de données 
+[2025-05-05 18:19:57] [INFO   ] [com.bmo.server.MainServer] Connexion à la base de données réussie 
+[2025-05-05 18:19:57] [INFO   ] [com.bmo.server.MainServer] Serveur BMO démarré sur 0.0.0.0:12345 
+[2025-05-05 18:19:57] [INFO   ] [com.bmo.server.MainServer] Pour vous connecter au serveur BMO depuis une autre machine sur le réseau, utilisez: 
+[2025-05-05 18:19:57] [INFO   ] [com.bmo.server.MainServer]   - telnet 10.10.2.44 12345 
+[2025-05-05 18:19:57] [INFO   ] [com.bmo.server.MainServer]   - telnet 172.27.16.1 12345 
+[2025-05-05 18:19:57] [INFO   ] [com.bmo.server.MainServer]   - telnet 172.19.176.1 12345 
+[2025-05-05 18:19:57] [INFO   ] [com.bmo.server.MainServer] Système d'exploitation Windows détecté. Vérifiez que le port 12345 est autorisé dans le pare-feu Windows: 
+[2025-05-05 18:19:57] [INFO   ] [com.bmo.server.MainServer]   - Panneau de configuration > Système et sécurité > Pare-feu Windows > Paramètres avancés 
+[2025-05-05 18:19:57] [INFO   ] [com.bmo.server.MainServer]   - Règles de trafic entrant > Nouvelle règle > Port > TCP > Port spécifique: 12345 
+[2025-05-05 18:19:57] [INFO   ] [com.bmo.server.MainServer] Exécution de diagnostics réseau... 
+[2025-05-05 18:19:57] [WARNING] [com.bmo.server.MainServer] Le port 12345 est déjà utilisé par une autre application. Ceci est anormal car notre serveur vient de démarrer sur ce port. 
+[2025-05-05 18:19:57] [INFO   ] [com.bmo.server.MainServer] Nom de l'hôte local: DESKTOP-0HIMVUQ 
+[2025-05-05 18:19:57] [INFO   ] [com.bmo.server.MainServer] Adresse IP locale: 10.10.2.44 
+[2025-05-05 18:19:57] [INFO   ] [com.bmo.server.MainServer] Diagnostics réseau terminés. 
+[2025-05-05 18:19:57] [INFO   ] [com.bmo.server.MainServer] Nouvelle connexion cliente depuis /127.0.0.1:56916 vers /127.0.0.1:12345 
+[2025-05-05 18:24:48] [INFO   ] [com.bmo.server.MainServer] Initialisation du serveur BMO 
+[2025-05-05 18:24:49] [INFO   ] [com.bmo.server.MainServer] Chargement de la configuration depuis: server/src/main/resources/application.properties 
+[2025-05-05 18:24:49] [INFO   ] [com.bmo.server.MainServer] Configuration chargée: bindAddress=0.0.0.0, port=12345, maxConnections=100, connectionTimeout=300s 
+[2025-05-05 18:24:49] [INFO   ] [com.bmo.server.MainServer] Initialisation de la source de données MySQL 
+[2025-05-05 18:24:49] [WARNING] [com.bmo.server.MainServer] Détection d'un préfixe incorrect dans db.url. Valeur corrigée: jdbc:mysql://localhost:3306/bmo_db 
+[2025-05-05 18:24:49] [INFO   ] [com.bmo.server.MainServer] Source de données MySQL initialisée - URL: jdbc:mysql://localhost:3306/bmo_db 
+[2025-05-05 18:24:50] [INFO   ] [com.bmo.server.MainServer] Test de connexion à la base de données réussi 
+[2025-05-05 18:24:50] [INFO   ] [com.bmo.server.MainServer] Vérification de la base de données 
+[2025-05-05 18:24:50] [INFO   ] [com.bmo.server.MainServer] Connexion à la base de données réussie 
+[2025-05-05 18:24:50] [INFO   ] [com.bmo.server.MainServer] Serveur BMO démarré sur 0.0.0.0:12345 
+[2025-05-05 18:24:50] [INFO   ] [com.bmo.server.MainServer] Pour vous connecter au serveur BMO depuis une autre machine sur le réseau, utilisez: 
+[2025-05-05 18:24:50] [INFO   ] [com.bmo.server.MainServer]   - telnet 10.10.2.44 12345 
+[2025-05-05 18:24:50] [INFO   ] [com.bmo.server.MainServer]   - telnet 172.27.16.1 12345 
+[2025-05-05 18:24:50] [INFO   ] [com.bmo.server.MainServer]   - telnet 172.19.176.1 12345 
+[2025-05-05 18:24:50] [INFO   ] [com.bmo.server.MainServer] Système d'exploitation Windows détecté. Vérifiez que le port 12345 est autorisé dans le pare-feu Windows: 
+[2025-05-05 18:24:50] [INFO   ] [com.bmo.server.MainServer]   - Panneau de configuration > Système et sécurité > Pare-feu Windows > Paramètres avancés 
+[2025-05-05 18:24:50] [INFO   ] [com.bmo.server.MainServer]   - Règles de trafic entrant > Nouvelle règle > Port > TCP > Port spécifique: 12345 
+[2025-05-05 18:24:50] [INFO   ] [com.bmo.server.MainServer] Exécution de diagnostics réseau... 
+[2025-05-05 18:24:50] [WARNING] [com.bmo.server.MainServer] Le port 12345 est déjà utilisé par une autre application. Ceci est anormal car notre serveur vient de démarrer sur ce port. 
+[2025-05-05 18:24:50] [INFO   ] [com.bmo.server.MainServer] Nom de l'hôte local: DESKTOP-0HIMVUQ 
+[2025-05-05 18:24:50] [INFO   ] [com.bmo.server.MainServer] Adresse IP locale: 10.10.2.44 
+[2025-05-05 18:24:50] [INFO   ] [com.bmo.server.MainServer] Diagnostics réseau terminés. 
+[2025-05-05 18:24:50] [INFO   ] [com.bmo.server.MainServer] Nouvelle connexion cliente depuis /127.0.0.1:57961 vers /127.0.0.1:12345 

@@ -1,0 +1,47 @@
+services:
+
+  mysql:
+    image: mysql:8.3
+    container_name: bmo-mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: bmo_db
+      MYSQL_USER: bmo_user
+      MYSQL_PASSWORD: changeme
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    container_name: bmo-phpmyadmin
+    restart: always
+    environment:
+      PMA_HOST: mysql
+      PMA_PORT: 3306
+      PMA_USER: root
+      PMA_PASSWORD: root
+    ports:
+      - "8081:80"
+    depends_on:
+      - mysql
+
+  bmo-server:
+    build:
+      context: .
+      dockerfile: server/Dockerfile
+    container_name: bmo-server
+    restart: always
+    depends_on:
+      - mysql
+    ports:
+      - "12345:12345"
+    environment:
+      DB_URL: jdbc:mysql://host.docker.internal:3306/bmo_db
+      DB_USER: bmo_user
+      DB_PASSWORD: changeme
+
+volumes:
+  mysql-data:
